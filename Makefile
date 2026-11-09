@@ -6,7 +6,7 @@ macxtract: macxtract.c
 	$(CC) $(CFLAGS) macxtract.c -o macxtract $(LDFLAGS)
 
 zip: macxtract
-	zip macxtract.zip macxtract
+	zip macxtract.zip macxtract LICENSE README.md
 
 clean:
 	rm -rf macxtract macxtract.zip *.dSYM
